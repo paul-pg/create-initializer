@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-console.log('testing')
 import { createProject } from 'npm-initializer-template';
 
-await createProject({
+console.log('testing123');
+createProject({
   workingDirectory: './', // Directory where the project will be cloned
   npmPackage: {
     name: '@paul-pg/initializer', // NPM Package to clone
