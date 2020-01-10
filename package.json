@@ -19,6 +19,7 @@
   "homepage": "https://github.com/paul-pg/initializer#readme",
   "dependencies": {
     "fs-extra": "^8.1.0",
-    "npm-initializer-template": "^1.1.0"
+    "npm-initializer-template": "^1.1.0",
+    "shelljs": "^0.8.3"
   }
 }
