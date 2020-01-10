@@ -2,7 +2,7 @@
 
 const shell = require('shelljs');
 
-const path = './folder';
+const path = './';
 
 shell.cd(path);
 shell.exec('git clone https://github.com/paul-pg/create-initializer');
