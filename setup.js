@@ -1,5 +1,6 @@
-// import { createProject } from 'npm-initializer-template';
 console.log('testing')
+// import { createProject } from 'npm-initializer-template';
+
 
 // await createProject({
 //   workingDirectory: './', // Directory where the project will be cloned
