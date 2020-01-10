@@ -3,7 +3,7 @@ const createProject = require('npm-initializer-template');
 
 console.log('create project');
 
-const agent = new createProject({
+const agent = createProject({
   workingDirectory: './', // Directory where the project will be cloned
   npmPackage: {
     name: '@paul-pg/create-initializer', // NPM Package to clone
