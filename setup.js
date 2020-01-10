@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 console.log('testing')
 // import { createProject } from 'npm-initializer-template';
 
