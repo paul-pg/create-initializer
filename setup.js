@@ -2,8 +2,9 @@
 const createProject = require('npm-initializer-template');
 
 console.log('create project');
-async function main() {
-  await createProject({
+
+function main() {
+  createProject({
     workingDirectory: './', // Directory where the project will be cloned
     npmPackage: {
       name: '@paul-pg/create-initializer', // NPM Package to clone
