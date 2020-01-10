@@ -1,13 +1,9 @@
 #!/usr/bin/env node
-const { createProject } = require('npm-initializer-template')
 
-async function main() {
-  await createProject({
-    workingDirectory: './', // Directory where the project will be cloned
-    npmPackage: {
-      name: 'paul-pg/create-initializer', // NPM Package to clone
-      // version: '1.12.1', // Optional, default to latest
-    },
-  });
-}
-main();
+const shell = require('shelljs');
+
+const path = './';
+
+shell.cd(path);
+shell.exec('git clone https://gitlab.com/GreenhouseGroup/creativedevelopment/opel-chat.git');
+console.log('done ⏰');
