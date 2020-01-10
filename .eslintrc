@@ -1,0 +1,28 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "browser": true
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true,
+    "Creative": true,
+    "TweenMax": true,
+    "TimelineMax": true,
+    "Bounce": true,
+    "Power0": true,
+    "Power1": true,
+    "Power2": true,
+    "Power3": true,
+    "Power4": true,
+    "Back": true,
+    "Elastic": true,
+    "Rough": true,
+    "SlowMo": true,
+    "Stepped": true,
+    "Circ": true,
+    "Expo": true,
+    "Sine": true,
+    "Custom": true
+  }
+}
