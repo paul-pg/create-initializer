@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-const createProject = require('npm-initializer-template')
+const createProject = require('npm-initializer-template');
 
+console.log('create project');
 async function main() {
   await createProject({
     workingDirectory: './', // Directory where the project will be cloned
