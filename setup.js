@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var createProject = require("npm-initializer-template");
+const createProject = require('npm-initializer-template');
 
 console.log('create project');
 async function main() {
